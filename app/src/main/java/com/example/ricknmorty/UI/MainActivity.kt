@@ -1,7 +1,8 @@
-package com.example.ricknmorty
+package com.example.ricknmorty.UI
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.ricknmorty.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
