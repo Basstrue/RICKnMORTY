@@ -12,7 +12,7 @@
 
         <activity
             android:exported="true"
-            android:name=".UI.SplashScreen"
+            android:name=".ui.SplashScreenActivity"
             android:theme="@style/Theme.Transparent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,9 +23,11 @@
         </activity>
 
         <activity
-            android:name=".UI.MainActivity"
+            android:name=".ui.MainScreenActivity"
             android:exported="true">
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

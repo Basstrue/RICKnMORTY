@@ -1,13 +1,12 @@
-package com.example.ricknmorty.UI
+package com.example.ricknmorty.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.CountDownTimer
-import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ricknmorty.R
 
-class SplashScreen: AppCompatActivity() {
+class SplashScreenActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.splash_screen)
@@ -23,7 +22,7 @@ class SplashScreen: AppCompatActivity() {
             override fun onTick(p0: Long) {}
 
             override fun onFinish() {
-                val intent = Intent(this@SplashScreen, MainActivity::class.java)
+                val intent = Intent(this@SplashScreenActivity, MainScreenActivity::class.java)
                 startActivity(intent)
                 finish()
             }
