@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">RicknMorty</string>
+    <string name="title_character">Characters</string>
+    <string name="title_location">Locations</string>
+    <string name="title_episode">Episodes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
